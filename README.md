@@ -6,3 +6,8 @@ Either search a character by name or select their name from the character's spec
 
 ## Get Started
 
+Clone repo `git clone https://github.com/jschneider33/swapi-tech-challenge.git`
+
+Install dependencies: `cd swapi-tech-callenge && npm install`
+
+Run: `npm run start`
