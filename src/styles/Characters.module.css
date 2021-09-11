@@ -1,0 +1,46 @@
+.main{
+    color: white;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.card{
+    flex: 1 1 auto;
+    margin: 0 10px;
+    height: 100px;
+    text-align: left;
+    max-width: 25%;
+}
+
+.name{
+    font-size: 1.2rem;
+}
+
+.charButton{
+    background-color: inherit;
+    width: 100%;
+    /* max-width: 300px; */
+    padding: 20px 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.charButton:hover{
+    background-color: #535353;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .list{
+        flex-direction: column;
+    }
+    .card{
+        max-width: 100%;
+    }
+}

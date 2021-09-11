@@ -1,0 +1,80 @@
+.details{
+    height: 100vh;
+    width: 50vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FFF;
+    box-shadow: 0 0 20px -10px;
+    text-align: left;
+    padding: 0px 40px;
+    overflow: scroll;
+    color: #000;
+}
+
+.details:after {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+  }
+
+.button{
+    margin-bottom: 4px;
+    border: none;
+    padding: 5px 10px;
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #FFF;
+}
+.button:hover{
+    border: 1px solid #000;
+}
+
+.title{
+    margin: 5px 0;
+    font-size: 1.4rem;
+}
+
+.info{
+    margin: 8px 0;
+}
+
+.trait{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 1.1rem;
+}
+
+.listDetails{
+    padding-left: 20px;
+}
+
+.films{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filmItem{
+    flex: 1 1 30%;
+    margin: 10px 0;
+    text-align: center;
+    max-width: 33%;
+}
+
+.filmImage{
+    width: 150px;
+    height: 233px;
+    margin: 0 auto;
+    object-fit: fill;
+}
+
+.filmTitle{
+    margin: 5px 0;
+    font-size: 1rem;
+}
